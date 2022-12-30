@@ -8,7 +8,7 @@ function App() {
 
   const [data, setData] = useState({});
   const [inputCity, setInputCity] = useState("");
-
+ 
   const getWetherDetails = (cityName) => {
     if (!cityName) return;
     const apiURL =
